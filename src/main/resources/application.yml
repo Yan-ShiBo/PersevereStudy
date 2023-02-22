@@ -7,9 +7,9 @@ spring:
   datasource:
     druid:
       driver-class-name: com.mysql.cj.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/perseverestudy?useUnicode=true&characterEncoding=utf8
+      url: jdbc:mysql://gz-cynosdbmysql-grp-hofs41x7.sql.tencentcdb.com:23607/perseverestudy?useUnicode=true&characterEncoding=utf8
       username: root
-      password: root
+      password: Yanshibo1
   servlet:
     multipart:
       max-file-size: 10MB
